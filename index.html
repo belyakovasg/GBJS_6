@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX в jQuery</title>
+    <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        .error {
+            background-color: palevioletred;
+            border: 3px solid darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <form name="Форма регистрации">
+        <label>Login<br>
+            <input type="text" placeholder="Введите login" name="username" size="50"/><br>
+        </label>
+        <!--<label>Фамилия<br>-->
+            <!--<input type="text" placeholder="Введите фамилию" size="50"/><br>-->
+        <!--</label>-->
+        <label>Пол<br>
+            <!--<select>-->
+                <!--<option>М</option>-->
+                <!--<option>Ж</option>-->
+            <!--</select>-->
+            <input type="text" placeholder="M/Ж" name="gender" maxlength="1" size="50"/><br>
+        </label>
+        <label>E-mail<br>
+            <input type="email" placeholder="some@some.ru" name="email" size="50"/><br>
+        </label>
+        <label>Пароль<br>
+            <input type="password" name="password" size="50"/><br>
+        </label>
+        <label>Банковская карта<br>
+            <input type="text" placeholder="ХХХХ-ХХХХ-ХХХХ-ХХХХ" name="credit_card" size="50"/><br>
+        </label>
+        <label>О себе<br>
+            <input type="text" name="bio" size="50"/>
+        </label><br>
+        <input type="submit" value="Регистрация"/>
+    </form>
+
+<div id="answer"></div>
+
+</body>
+</html>
+<!--4627291476776745-->
